@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Opsi</title>
+    <link rel="stylesheet" href="gamod.css">
+</head>
+<body>
+    <header>
+        <h1>Apa yang anda inginkan?</h1>
+    </header>
+
+    <main>
+        <div class="options-container">
+            <div class="option" id="option1">
+                <h2>Download Game</h2>
+                <p>Download game gratis di sini!</p>
+                <button onclick="selectOption('Opsi 1')">Pilih</button>
+            </div>
+            <div class="option" id="option2">
+                <h2>Dwonload Mod</h2>
+                <p>Download macam2 mod di sini</p>
+                <button onclick="selectOption('Opsi 2')">Pilih</button>
+            </div>
+        </div>
+        <a href="index.html">
+            <div class="back-container"></div>
+            <button class="back-button" onclick="goBack()">Kembali</button>
+        </div>
+        </a>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 | BeyzeTech X MokuShop.</p>
+    </footer>
+
+    <script>
+        function selectOption(option) {
+            alert("Anda telah memilih: " + option);
+        }
+    </script>
+</body>
+</html>

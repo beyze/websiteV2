@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #007bff; /* Biru */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.news {
+    margin-top: 20px;
+}
+
+article {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    margin: 0;
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #007bff; /* Biru */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Biru gelap saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff; /* Biru */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

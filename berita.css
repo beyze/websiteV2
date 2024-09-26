@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Latar belakang gelap */
+    color: #fff;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2137ff; /* Merah */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffd700; /* Emas saat hover */
+    border-radius: 5px;
+}
+
+nav ul li.active a {
+    background-color: #ffd700; /* Emas saat aktif */
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.featured {
+    flex: 2;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #333; /* Abu-abu gelap */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #222; /* Hitam */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+article {
+    margin-bottom: 20px;
+    background: #2a2a2a; /* Latar belakang artikel */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+article h3 {
+    color: #44c4ff; /* Merah */
+    margin: 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #1796ff; /* Merah */
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #0b37ff; /* Merah lebih gelap saat hover */
+}
+
+aside h2 {
+    color: #ffd700; /* Emas */
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+aside a:hover {
+    color: #ff4444; /* Merah saat hover */
+}
